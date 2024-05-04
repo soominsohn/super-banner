@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.github.soominsohn'
-version = 'v0.0.5'
+version = 'v0.0.6'
 
 java {
 	sourceCompatibility = '21'
@@ -20,6 +20,15 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+}
+
 
 tasks.named('test') {
 	useJUnitPlatform()
