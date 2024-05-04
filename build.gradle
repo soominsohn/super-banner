@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.github.soominsohn'
-version = 'v0.0.8'
+version = 'v0.0.9'
 
 java {
 	sourceCompatibility = '21'
@@ -27,7 +27,7 @@ publishing {
 			artifact bootJar
 			groupId = 'com.github.soominsohn'
 			artifactId = 'super-banner'
-			version = 'v0.0.8'
+			version = 'v0.0.9'
 		}
 	}
 }
