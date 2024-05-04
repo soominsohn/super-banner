@@ -1,4 +1,4 @@
-package angie.near.banner;
+package com.github.soominsohn.banner;
 
 import java.io.PrintStream;
 import org.springframework.boot.Banner;

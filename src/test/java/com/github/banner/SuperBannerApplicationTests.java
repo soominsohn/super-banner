@@ -1,4 +1,4 @@
-package angie.near.banner;
+package com.github.banner;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

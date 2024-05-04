@@ -1,4 +1,4 @@
-package angie.near.banner;
+package com.github.soominsohn.banner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
