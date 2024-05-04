@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.github.soominsohn'
-version = 'v0.0.7'
+version = 'v0.0.8'
 
 java {
 	sourceCompatibility = '21'
@@ -24,10 +24,10 @@ dependencies {
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
-			from components.java
+			artifact bootJar
 			groupId = 'com.github.soominsohn'
 			artifactId = 'super-banner'
-			version = 'v0.0.7'
+			version = 'v0.0.8'
 		}
 	}
 }
